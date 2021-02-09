@@ -32,7 +32,7 @@ class malEntry:
 
     def convert_status(self):
         switch = {
-            'CURRENT': 'Current',
+            'CURRENT': 'Watching',
             'PLANNING': 'Planning',
             'COMPLETED': 'Completed',
             'DROPPED': 'Dropped',
