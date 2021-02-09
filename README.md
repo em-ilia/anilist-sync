@@ -13,3 +13,7 @@ Note: This is meant to have anilist be used as the primary list, with other webs
 ## Dependencies
 - Requests
 	This project doesn't really need anything else. All of my systems have this installed globally anyway since it's a pretty common package.
+
+## Usage
+### MyAnimeList
+If one really wanted, you could use the official MyAnimeList API to automatically upload and modify your list, but I'm pretty sure you would have to create an API token. Instead, take the XML file generated and upload it to [here](https://myanimelist.net/import.php).
