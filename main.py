@@ -25,4 +25,6 @@ if __name__ == '__main__':
 
     d = trim_list(get_list(args.anilist_user))
     mde = myanimelist.malDataExport(d)
-    test_write(str(mde.mal_skeleton(args.mal_user)), args.path)
+    if args.path is not None:
+        test_write(str(mde.mal_skeleton(args.mal_user)), args.path)
+    else: print(mde.mal_skeleton(args.mal_user))
