@@ -11,7 +11,9 @@ Note: This is meant to have anilist be used as the primary list, with other webs
 	Funnily enough, Anilist's API also stores the MyAnimeList id for each entry, meaning that Anilist actually provides the best API for MAL. Nice.
 
 ## Dependencies
+
 - Requests
+
 	This project doesn't really need anything else. All of my systems have this installed globally anyway since it's a pretty common package.
 
 ## Usage
